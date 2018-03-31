@@ -1,6 +1,7 @@
 # ES Code Docer
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/TitanNano/es-code-docer.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/TitanNano/es-code-docer.svg?branch=master)](https://travis-ci.org/TitanNano/es-code-docer)
 
 ES Code Docer is a modern code documentation tool for ECMAScript. 
 The CLI application is designed for ECMA script modules and supports the JSDoc comment syntax.
