@@ -1,0 +1,4 @@
+.git/
+.tern-project
+.travis.yml
+tests/
