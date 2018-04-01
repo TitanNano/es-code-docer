@@ -3,7 +3,7 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/TitanNano/es-code-docer.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/TitanNano/es-code-docer.svg?branch=master)](https://travis-ci.org/TitanNano/es-code-docer)
 ![David](https://img.shields.io/david/titannano/es-code-docer.svg)
-[![GitHub release](https://img.shields.io/github/release/titannnano/es-code-docer.svg)](https://github.com/TitanNano/es-code-docer/releases)
+[![GitHub release](https://img.shields.io/github/release/titannano/es-code-docer.svg)](https://github.com/TitanNano/es-code-docer/releases)
 [![npm](https://img.shields.io/npm/v/es-code-docer.svg)](https://www.npmjs.com/package/es-code-docer)
 ![npm](https://img.shields.io/npm/dw/es-code-docer.svg)
 
