@@ -3,6 +3,7 @@ before_install:
     - npm i -g greenkeeper-lockfile@1
 before_script:
     - greenkeeper-lockfile-update
+install: case $TRAVIS_BRANCH in greenkeeper*) npm i;; *) npm ci;; esac;
 script:
     - npm run eslint
     - npm run test
