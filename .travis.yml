@@ -1,18 +1,13 @@
 before_install:
-    - npm i -g npm@latest
-    - npm i -g greenkeeper-lockfile@1
-before_script:
-    - greenkeeper-lockfile-update
-install: case $TRAVIS_BRANCH in greenkeeper*) npm i;; *) npm ci;; esac;
+    - npm i -g npm@6
+install:
+    - npm ci
 script:
     - npm run eslint
     - npm run test
-after_script:
-    - greenkeeper-lockfile-upload
 branches:
     only:
         - master
-        - /^greenkeeper/.*$/
 language: node_js
 node_js:
     - 9
